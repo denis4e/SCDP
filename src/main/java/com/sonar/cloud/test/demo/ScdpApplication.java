@@ -11,8 +11,11 @@ public class ScdpApplication {
         test();
     }
 
-   private static void test(){
-        System.out.println("SPRING APP");
+    private static void test() {
+        boolean isEmpty = true;
+        if (isEmpty) {
+            System.out.println("SPRING APP");
+        }
     }
 
 }
