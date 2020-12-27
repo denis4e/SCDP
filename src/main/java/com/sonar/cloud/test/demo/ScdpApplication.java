@@ -13,9 +13,15 @@ public class ScdpApplication {
 
     private static void test() {
         boolean isEmpty = true;
-        if (isEmpty) {
-            System.out.println("SPRING APP");
+        if (isEmpty) { // Noncompliant; "a" is always "true"
+            System.out.println("TEST MESSAGE!");
         }
+        int target = -5;
+        int num = 3;
+
+        target =+ num; // Noncompliant; target = 3
+        System.out.println(target);
+
     }
 
 }
