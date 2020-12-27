@@ -14,13 +14,13 @@ public class ScdpApplication {
     private static void test() {
         boolean isFlag = true;
         if (isFlag) { // Noncompliant; "a" is always "true"
-            System.out.println("TEST MESSAGE EXAMPLE!");
+           //TODO fix this condition
         }
-        int a = -5;
-        int b = 3;
+        int value = -5;
+        int item = 3;
 
-        a =+ b; // Noncompliant; target = 3
-        System.out.println(a);
+        value =+ item; // Noncompliant; target = 3
+        System.out.println(value);
 
     }
 
