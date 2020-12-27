@@ -14,7 +14,7 @@ public class ScdpApplication {
     private static void test() {
         boolean isEmpty = true;
         if (isEmpty) { // Noncompliant; "a" is always "true"
-            System.out.println("TEST MESSAGE!");
+            System.out.println("TEST MESSAGE EXAMPLE!");
         }
         int target = -5;
         int num = 3;
