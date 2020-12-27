@@ -12,15 +12,15 @@ public class ScdpApplication {
     }
 
     private static void test() {
-        boolean isTrue = true;
-        if (isTrue) { // Noncompliant; "a" is always "true"
-            System.out.println("TEST MESSAGE EXAMPLE SOURCE!");
+        boolean isFlag = true;
+        if (isFlag) { // Noncompliant; "a" is always "true"
+            System.out.println("TEST MESSAGE EXAMPLE!");
         }
-        int item = -5;
-        int value = 3;
+        int a = -5;
+        int b = 3;
 
-        item =+ value; // Noncompliant; target = 3
-        System.out.println(item);
+        a =+ b; // Noncompliant; target = 3
+        System.out.println(a);
 
     }
 
