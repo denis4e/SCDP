@@ -1,4 +1,6 @@
-package com.demo.scdp;
+package com.demo.scdp.service;
+
+import com.demo.scdp.domain.User;
 
 public interface UserService {
     String getUserFullName(User user);

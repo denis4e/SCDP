@@ -1,4 +1,4 @@
-package com.demo.scdp;
+package com.demo.scdp.domain;
 
 public class User {
     private String name;

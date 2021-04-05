@@ -1,5 +1,6 @@
-package com.demo.scdp;
+package com.demo.scdp.service;
 
+import com.demo.scdp.domain.User;
 import org.springframework.stereotype.Service;
 
 @Service

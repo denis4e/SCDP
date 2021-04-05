@@ -1,4 +1,4 @@
-package com.demo.scdp;
+package com.demo.scdp.service;
 
 public class Util {
     public int anIntMethod() {
