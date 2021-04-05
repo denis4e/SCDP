@@ -1,6 +1,9 @@
 package com.demo.scdp;
 
 
+import com.demo.scdp.domain.User;
+import com.demo.scdp.service.UserServiceImpl;
+import com.demo.scdp.service.Util;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
