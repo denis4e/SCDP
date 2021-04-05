@@ -112,13 +112,18 @@
         <profile>
             <id>code-coverage</id>
             <activation>
-                <activeByDefault>false</activeByDefault>
+                <activeByDefault>true</activeByDefault>
             </activation>
             <build>
                 <plugins>
                     <plugin>
                         <groupId>org.jacoco</groupId>
                         <artifactId>jacoco-maven-plugin</artifactId>
+                        <configuration>
+                            <dataFile>${basedir}/target/jacoco.exec</dataFile>
+                            <output>file</output>
+                            <append>true</append>
+                        </configuration>
                         <executions>
                             <execution>
                                 <id>jacoco-initialize</id>
