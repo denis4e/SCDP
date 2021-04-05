@@ -7,8 +7,6 @@ import spock.lang.Specification
 class TestSpec extends Specification {
 
     def "should return name"() {
-        println "************** Groovy Test **************"
-
         setup: "that temperature readings are within limits"
         UserServiceImpl userService = new UserServiceImpl()
 
