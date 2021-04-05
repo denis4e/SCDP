@@ -27,7 +27,7 @@ public class ScdpApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) {
-        System.out.println("*************************** STARTED ****************************");
+        System.out.println("STARTED");
     }
 
 }
