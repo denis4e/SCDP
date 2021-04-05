@@ -15,7 +15,7 @@ public class ScdpApplication implements CommandLineRunner {
     private static void test() {
         boolean isFlag = true;
         if (isFlag) { // Noncompliant; "a" is always "true"
-            System.out.println("TEST MESSAGE EXAMPLE!");
+            System.out.println("test MESSAGE EXAMPLE!");
         }
         int a = -5;
         int b = 3;
