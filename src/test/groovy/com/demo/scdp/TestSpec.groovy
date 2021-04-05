@@ -1,6 +1,6 @@
 package com.demo.scdp
 
-import com.demo.scdp.UserService
+
 import spock.lang.Specification
 
 
@@ -10,7 +10,7 @@ class TestSpec extends Specification {
         println "************** Groovy Test **************"
 
         setup: "that temperature readings are within limits"
-        UserService userService = new UserService()
+        UserServiceImpl userService = new UserServiceImpl()
 
         when: "we ask for the full name of the customer"
         def result = userService.buildFullName(name, lastName)
